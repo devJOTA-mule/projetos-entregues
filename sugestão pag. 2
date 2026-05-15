@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RetroShirts</title>
+  <style>
+ body {
+      margin: 0;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: hsl(113, 81%, 64%);
+    }
+
+    header {
+      background-color: #111;
+      color: hsl(0, 0%, 100%);
+      padding: 60px;
+      text-align: center; /* CENTRALIZA TUDO */
+      </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      ⚽ Retrô Estácio
+    </div>
+
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Camisas</a>
+      <a href="#">Coleções</a>
+      <a href="#">Contato</a>
+    </nav>
+     <div class="banner">
+    Reviva a história do futebol com camisas clássicas!
+  </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Camisas Retrô para Verdadeiros Torcedores</h1>
+
+      <p>
+        Reviva momentos históricos do futebol com peças clássicas e estilosas.
+      </p>
+
+      <button>Ver Coleção</button>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="products">
+
+    <h2>Camisas em Destaque</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="C:\Users\silvi\Pictures\Screenshots\projeto html\download.jpg" alt="">
+        <h3>Brasil 2002</h3>
+        <p>R$ 199,90</p>
+        <button type="submit">Comprar</button>
+      </div>
+
+      <div class="card">
+        <img src="C:\Users\silvi\Pictures\Screenshots\projeto html\Captura de tela 2026-05-15 145148.png"alt="">
+        <h3>Milan 1990</h3>
+        <p>R$ 219,90</p>
+        <button type="submit">Comprar</button>
+      </div>
+
+      <div class="card">
+        <img src="C:\Users\silvi\Pictures\Screenshots\projeto html\Captura de tela 2026-05-15 145647.png" alt="">
+        <h3>Barcelona 2009</h3>
+        <p>R$ 209,90</p>
+        <button type="submit">Comprar</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOGIN -->
+  <section class="login-section">
+
+    <div class="login-box">
+      <h2>Login</h2>
+
+      <form id="loginForm">
+
+        <input type="text" placeholder="Usuário" required>
+
+        <input type="password" placeholder="Senha" required>
+
+        <button type="submit">Entrar</button>
+
+      </form>
+
+      <p id="mensagem"></p>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 RetroShirts - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
